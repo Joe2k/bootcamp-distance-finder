@@ -14,4 +14,9 @@ public class DistanceCalculatorTest {
     public void testGetPythagoreanDistance() {
         assertEquals(1.5, DistanceCalculator.getPythagoreanDistance(1.2, 0.9), 0.001);
     }
+
+    @Test
+    public void testGetDistance() {
+        assertEquals(Math.sqrt(34), DistanceCalculator.getDistance(5, 7, 8, 2), 0.001);
+    }
 }
