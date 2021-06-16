@@ -9,4 +9,9 @@ public class DistanceCalculatorTest {
     public void testGetOneDimensionalDistance() {
         assertEquals(5.3, DistanceCalculator.getOneDimensionalDistance(10.7, 5.4), 0.001);
     }
+
+    @Test
+    public void testGetPythagoreanDistance() {
+        assertEquals(1.5, DistanceCalculator.getPythagoreanDistance(1.2, 0.9), 0.001);
+    }
 }
